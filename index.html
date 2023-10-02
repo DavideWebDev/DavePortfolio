@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/93be2d9178.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+
+        <div class="container">
+
+        <nav>
+
+            <img src="images/LogoDaveNew.png" class="logo">
+            <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contacts</a></li>
+              <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    
+         <div class="header-text">
+
+            <p></p><br><br>
+            <h1>Hi, I'm Davide</h1>
+         </div>
+
+         
+        </div>
+       
+
+    </div>
+    
+<!-- ------------ About ------------- -->
+
+    <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="images/storm troopa 1a.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                   <p>Hi, I'm Davide and I'm a Web Developer.<br>
+                    I love building user friendly, creative and responsive Websites, Apps and VideoGames. I'm always looking for a new challenge and 
+                    my main languages and libraries are Html, Css, Javascript, ReactJS, Bootstrap and least, but not last, passion for what I do.
+                   </p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>UI/UX</span><br>Designing Web/App interfaces
+                        </li>
+                        <li> 
+                            <span>Web Development</span><br>Building user friendly,creative and responsive Websites for your Business or for Private users utilizing Html, Css, Javascript and ReactJs.
+                        </li>
+                        <li>
+                            <span>Game Development</span><br>
+                            Building simple and fun Platform Games.
+                        </li>
+                    
+                    </ul>
+                            
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>2022 - Current</span><br>Designing Web/App interfaces, developing Apps and Videogames using Html, Css, Javascript and ReactJS.
+                        </li>
+                           
+                    
+                    </ul>
+                            
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>2022 - 2023</span><br>Responsive Web Design Course, JavaScript Algorithms and Data Structures Course and Front End Development Libraries Course at <a href="https://www.freecodecamp.org/fccca503566-709c-46c1-af5c-8d7a7645096b" target="_blank" class="fcc">FreeCodeCamp</a>. 
+                        </li>
+                           <li> <span>2001 - 2006</span><br>GCSE in Navigation Sciences and Maritime Technologies.
+                        </li>
+                    
+                    </ul>
+                            
+                        
+                    </ul>
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ------------ Services ------------- -->
+<div id="services">
+
+
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+            <div class="uno">
+
+               <i class="fa-solid fa-sailboat fa-flip"></i>
+               <h2>Web Design</h2>
+               <p>I build user friendly, responsive and creative websites utilizing Html, Css, Javascript, ReactJs, Bootstrap and lots of creativity. </p>
+               <a href="#portfolio">Learn more</a>
+            </div>
+            <div class="due">
+
+                <i class="fa-solid fa-user-astronaut fa-beat-fade"></i>
+                <h2>UI/UX Design</h2>
+                <p>From a Product Landing Page or an Interactive Digital Menu for Your Restaurant, to a ChatBot for Your Business. Possibilities are Infinite.</p>
+                <a href="#portfolio">Learn more</a>
+             </div>
+            
+             <div class="tre">
+
+                <i class="fa-solid fa-gamepad fa-bounce"></i>
+                <h2>App Design</h2>
+                <p>I love building and playing platform videogames but I also can create Apps such as a Javascript Calculator, a Weather Forecast App or a Drum Machine!.</p>
+                <a href="#portfolio">Learn more</a>
+             </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+ <!-- ------------ Portfolio ------------- -->
+
+<div id="portfolio">
+
+
+<div class="container">
+
+    <h1 class="sub-title">My Works</h1>
+
+    <div class="work-list">
+
+      <div class="work">
+
+        <img src="images/work-1.png" >
+        <div class="layer">
+            <h3>Product Landing Page</h3>
+            <p>Click Here to join the DarkSide and fight for a better future.</p>
+            <a href="https://codepen.io/DaveWork878787/pen/qBLBmjd" target="_blank"><i class="fa-solid fa-anchor"></i></a>
+        </div>
+      </div>
+      
+      <div class="work">
+
+        <img src="images/work-2.png" >
+        <div class="layer">
+            <h3>Platform Game</h3>
+            <p>Have some fun with my own version of the classic and evergreen Snake game.</p>
+            <a href="https://codepen.io/DaveWork878787/pen/rNQwXaZ" target="_blank"><i class="fa-solid fa-anchor"></i></a>
+        </div>
+      </div>
+      
+      <div class="work">
+
+        <img src="images/work-3.png" >
+        <div class="layer">
+            <h3>Java Script Calculator</h3>
+            <p>Use this app to execute some simple mathematical calculations.</p>
+            <a href="https://codepen.io/DaveWork878787/pen/gOBewjG" target="_blank"><i class="fa-solid fa-anchor"></i></a>
+        </div>
+      </div>
+
+
+
+    </div>
+    <a href="https://codepen.io/DaveWork878787/pens/public" target="_blank" class="btn">See more</a>
+
+</div>
+
+</div>
+
+<!-- ------------ Contact ------------- -->
+
+
+<div id="contact">
+
+<div class="container">
+
+    <div class="row">
+
+
+        <div class="contact-left">
+        
+            <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-regular fa-paper-plane"></i>davedavework@protonmail.com</p>
+        <p><i class="fa-solid fa-mobile-screen"></i>(+44)7341527438</P>
+        
+        <div class="social-icons">
+
+         <a href="https://codepen.io/DaveWork878787/pens/public" target="_blank"><i class="fa fa-codepen"></i></a>
+         <a href="https://www.freecodecamp.org/fccca503566-709c-46c1-af5c-8d7a7645096b" target="_blank"><i class="fa-brands fa-free-code-camp"></i></a>
+
+        </div>
+
+        <a href="images/Davide Scanu CV.pdf" target="_blank" download class="btn btn2">Download CV</a>
+    
+    </div>
+        
+        <div class="contact-right">
+
+            <form name="submit-to-google-sheet"> 
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Write Your Message Here."></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+
+        </div>
+    
+
+
+
+
+</div>
+        
+<div class="copyright">
+
+<p>Copyright © Davide. Made with <i class="fa-solid fa-ghost"></i>.
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<script>
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+         for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+
+         }
+         for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+
+         }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+</script>
+
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+
+sidemenu.style.right = "0";
+
+
+}
+
+function closemenu(){
+
+sidemenu.style.right = "-200px";
+
+
+}
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz3cp7VUq8K3ZaFJ1rA9_e6HwG5MGCAMEmx1_PMw-GeT_88zjTeHHnv6L2MQ3C8JUDGnw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+
+            msg.innerHTML = "Your Message Has Been Sent to the Dark Side"
+            setTimeout(function(){
+
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
